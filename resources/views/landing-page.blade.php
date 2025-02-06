@@ -220,9 +220,20 @@
 
 
 
-    <footer class="bg-[#f69c32] text-white">
+    {{-- <footer class="bg-[#f69c32] bg-[#3b3b3b] text-white">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-red-900">
+                <a href="/">
+                    <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo" width="90"
+                        height="90">
+                </a>
+
+                <p>
+                    Your trusted partner for all computer repair needs. We provide expert services to keep your devices
+                    running smoothly and efficiently.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 border-4">
                 <div>
                     <h3 class="text-sm font-semibold text-yellow tracking-wider uppercase mb-4">Services</h3>
                     <ul class="space-y-4">
@@ -247,15 +258,12 @@
                     <h3 class="text-sm font-semibold text-yellow tracking-wider uppercase mb-4">Contact Us</h3>
                     <ul class="space-y-4">
                         <li class="flex items-center">
-                            {{-- <x-lucide-phone class="flex-shrink-0 h-6 w-6 text-gray-400" /> --}}
                             <span class="ml-3 text-base">+1 (555) 123-4567</span>
                         </li>
                         <li class="flex items-center">
-                            {{-- <x-lucide-mail class="flex-shrink-0 h-6 w-6 text-gray-400" /> --}}
                             <span class="ml-3 text-base">support@techfixpro.com</span>
                         </li>
                         <li class="flex items-center">
-                            {{-- <x-lucide-map-pin class="flex-shrink-0 h-6 w-6 text-gray-400" /> --}}
                             <span class="ml-3 text-base">123 Tech Street, Silicon Valley, CA 94000</span>
                         </li>
                     </ul>
@@ -266,12 +274,154 @@
                     @foreach (['facebook', 'twitter', 'instagram', 'linkedin'] as $social)
                         <a href="#" class="">
                             <span class="sr-only">{{ ucfirst($social) }}</span>
-                            {{-- <x-lucide-{{ $social }} class="h-6 w-6" /> --}}
                         </a>
                     @endforeach
                 </div>
                 <p class="mt-8 text-base  md:mt-0 md:order-1">
                     &copy; {{ date('Y') }} TechFix Pro. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer> --}}
+
+
+    {{-- <footer class="bg-[#3b3b3b] p-12">
+        <div class="bg-blue-900 flex">
+            <div class="bg-blue-900 w-[50%]">
+                <div class="bg-red-900 flex items-center">
+                    <a href="/">
+                        <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo"
+                            width="120" height="120">
+                    </a>
+                    computer fixplus
+                </div>
+                <div class="flex">
+                    <x-lucide-star class="h-6 w-6 text-yellow-400 fill-current" />
+                    <x-lucide-star class="h-6 w-6 text-yellow-400 fill-current" />
+                    <x-lucide-star class="h-6 w-6 text-yellow-400 fill-current" />
+                    <x-lucide-star class="h-6 w-6 text-yellow-400 fill-current" />
+                </div>
+            </div>
+
+            <div class="bg-yellow-500 w-[50%] flex">
+                <div>
+                    <h3 class="text-sm font-semibold text-yellow tracking-wider uppercase mb-4">Services</h3>
+                    <ul class="space-y-4">
+                        @foreach (['Backup PC', 'Virus Protection', 'Hardware Repair', 'Motherboard Repair', 'Liquid Damage Repair', 'Technical Support'] as $item)
+                            <li>
+                                <a href="#" class="text-base hover:text-white">{{ $item }}</a>
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-sm font-semibold text-yellow tracking-wider uppercase mb-4">Contact Us</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <span class="ml-3 text-base">+1 (555) 123-4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="ml-3 text-base">support@techfixpro.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="ml-3 text-base">123 Tech Street, Silicon Valley, CA 94000</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bg-red-900">
+            footer
+        </div>
+
+    </footer> --}}
+
+
+
+    <footer class="bg-gray-800 shadow-lg mt-auto">
+        <div class="container mx-auto px-8 py-20">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-12">
+                <div class="space-y-0">
+                    <a href="/" class="">
+                        <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo"
+                            width="120" height="120">
+                    </a>
+                    <p class="text-gray-300 text-base">
+                        We fix any computer problem. Bring us your broken laptop, MacBook, or desktop PC today for fast
+                        computer help. </p>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-base font-semibold text-white uppercase tracking-wider">Quick Links</h3>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Home</a>
+                        </li>
+                        <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Services</a>
+                        </li>
+                        <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Our Work</a>
+                        </li>
+                        <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Contact
+                                Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-base font-semibold text-white uppercase tracking-wider">Contact</h3>
+                    <ul class="space-y-4">
+                        <div class="flex gap-2">
+                            <x-lucide-phone class="h-6 w-6 text-gray-300" />
+                            <p class="text-gray-300">+1(703)-890-6666</p>
+                        </div>
+                        <div class="flex gap-2">
+                            <x-lucide-mail class="h-6 w-6 text-gray-300" />
+                            <p class="text-gray-300">computerfixplus@hotmail.com</p>
+                        </div>
+                        <div class="flex gap-2">
+                            <x-lucide-map-pin class="h-6 w-6 text-gray-300" />
+                            <p class="text-gray-300">4215 Downing St.
+                                Annandale VA 22003</p>
+                        </div>
+                        {{-- <li class="text-gray-300">📞 +1(703)-890-6666</li> --}}
+                        {{-- <li class="text-gray-300">✉️ computerfix.com</li>
+                        <li class="text-gray-300">📍 4215 Downing St.
+                            Annandale VA 22003</li> --}}
+                    </ul>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-base font-semibold text-white uppercase tracking-wider">Hours</h3>
+                    <ul class="space-y-4 text-gray-300">
+                        <li>Mon-Fri: 9:00 AM - 6:00 PM</li>
+                        <li>Saturday: 10:00 AM - 4:00 PM</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-base font-semibold text-white uppercase tracking-wider">Follow Us</h3>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <x-lucide-instagram class="h-6 w-6 text-yellow-400" />
+
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <x-lucide-twitter class="h-6 w-6 text-yellow-400" />
+
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <x-lucide-instagram class="h-6 w-6 text-yellow-400" />
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 pt-8 border-t border-gray-600">
+                <p class="text-center text-gray-400 text-sm">
+                    © {{ date('Y') }} ComputerFixPlus. All rights reserved.
                 </p>
             </div>
         </div>
