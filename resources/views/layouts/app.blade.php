@@ -29,10 +29,9 @@
                     </div>
                     <div class="hidden md:flex items-center space-x-4 text-white font-bold">
                         <a href="/" class="text-dark-blue hover:text-primary">Home</a>
-                        <a href="/about" class="text-dark-blue hover:text-primary">About</a>
-                        <a href="/services" class="text-dark-blue hover:text-primary">Services</a>
-                        <a href="/testimonials" class="text-dark-blue hover:text-primary">Testimonials</a>
-                        <a href="/contact" class="text-dark-blue hover:text-primary">Contact</a>
+                        <a href="/#services" class="text-dark-blue hover:text-primary">Services</a>
+                        <a href="/#ourwork" class="text-dark-blue hover:text-primary">OurWork</a>
+                        <a href="/about" class="text-dark-blue hover:text-primary">AboutUs</a>
                         <a href="/quote"
                             class="bg-[#f69c32] text-white hover:bg-yellow hover:text-dark-blue px-4 py-2 rounded-md transition duration-300">
                             Get a Quote
@@ -40,7 +39,7 @@
                     </div>
                     <div class="md:hidden flex items-center">
                         <button id="menu-toggle" class="text-dark-blue hover:text-primary z-50">
-                            <svg id="menu-icon" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white">
+                            <svg id="menu-icon" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#ffbd2e">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h16M4 18h16" />
                             </svg>
@@ -49,14 +48,13 @@
                 </div>
             </div>
             <div id="mobile-menu"
-                class="hidden md:hidden fixed inset-0 bg-blue-500 bg-opacity-50 z-40 flex items-center justify-center">
+                class="hidden md:hidden fixed inset-0 bg-white bg-opacity-90 z-40 flex items-center justify-center">
                 <div class="text-center space-y-8">
                     <a href="/" class="block text-2xl text-dark-blue hover:text-primary py-2">Home</a>
-                    <a href="/about" class="block text-2xl text-dark-blue hover:text-primary py-2">About</a>
-                    <a href="/services" class="block text-2xl text-dark-blue hover:text-primary py-2">Services</a>
-                    <a href="/testimonials"
-                        class="block text-2xl text-dark-blue hover:text-primary py-2">Testimonials</a>
-                    <a href="/contact" class="block text-2xl text-dark-blue hover:text-primary py-2">Contact</a>
+                    <a href="/#services" class="block text-2xl text-dark-blue hover:text-primary py-2">Services</a>
+                    <a href="/#ourwork" class="block text-2xl text-dark-blue hover:text-primary py-2">OurWork</a>
+                    <a href="/aboutus" class="block text-2xl text-dark-blue hover:text-primary py-2">AboutUs</a>
+                    <a href="/contactus" class="block text-2xl text-dark-blue hover:text-primary py-2">ContactUs</a>
                     <a href="/quote"
                         class="inline-block bg-secondary text-white hover:bg-yellow hover:text-dark-blue px-6 py-3 rounded-md transition duration-300">
                         Get a Quote
