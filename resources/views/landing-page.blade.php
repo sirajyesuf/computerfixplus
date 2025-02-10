@@ -23,11 +23,11 @@
                             team of skilled
                             technicians is ready to tackle any issue, big or small.
                         </p>
-                        <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                            <div class="rounded-md shadow">
+                        <div class="mt-8 flex items-center p-2">
+                            <div class="rounded-sm shadow-none capitalize">
                                 <a href="/book"
                                     class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#ffbd2e] hover:bg-[#ffbd2e] hover:text-dark-blue md:py-4 md:text-lg md:px-10 transition duration-300">
-                                    Book Now
+                                    get Quote
                                 </a>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
 @endsection
 
 @section('content')
-    <section class="py-12 bg-gray-50">
+    <section class="py-12 bg-gray-50" id="services">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h2 class="text-3xl font-extrabold text-dark-blue sm:text-4xl">Our Services</h2>
@@ -69,7 +69,7 @@
     </section>
 
 
-    <section class="py-12 bg-gray-50">
+    <section class="py-12 bg-gray-50" id="ourwork">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h2 class="text-3xl font-extrabold text-dark-blue sm:text-4xl">Our Work</h2>

@@ -31,7 +31,7 @@
                         <a href="/" class="text-dark-blue hover:text-primary">Home</a>
                         <a href="/#services" class="text-dark-blue hover:text-primary">Services</a>
                         <a href="/#ourwork" class="text-dark-blue hover:text-primary">OurWork</a>
-                        <a href="/about" class="text-dark-blue hover:text-primary">AboutUs</a>
+                        <a href="/aboutus" class="text-dark-blue hover:text-primary">AboutUs</a>
                         <a href="/quote"
                             class="bg-[#f69c32] text-white hover:bg-yellow hover:text-dark-blue px-4 py-2 rounded-md transition duration-300">
                             Get a Quote
@@ -86,14 +86,15 @@
                 <div class="space-y-6">
                     <h3 class="text-base font-semibold text-white uppercase tracking-wider">Quick Links</h3>
                     <ul class="space-y-4">
-                        <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Home</a>
+                        <li><a href="/" class="text-gray-300 hover:text-blue-400 transition-colors">Home</a>
                         </li>
-                        <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Services</a>
+                        <li><a href="/#services"
+                                class="text-gray-300 hover:text-blue-400 transition-colors">Services</a>
                         </li>
-                        <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Our Work</a>
+                        <li><a href="/#ourwork" class="text-gray-300 hover:text-blue-400 transition-colors">Our Work</a>
                         </li>
-                        <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Contact
-                                Us</a></li>
+                        <li><a href="/quote" class="text-gray-300 hover:text-blue-400 transition-colors">Get
+                                Quote</a></li>
                     </ul>
                 </div>
 
@@ -113,19 +114,14 @@
                             <p class="text-gray-300">4215 Downing St.
                                 Annandale VA 22003</p>
                         </div>
-                        {{-- <li class="text-gray-300">📞 +1(703)-890-6666</li> --}}
-                        {{-- <li class="text-gray-300">✉️ computerfix.com</li>
-                        <li class="text-gray-300">📍 4215 Downing St.
-                            Annandale VA 22003</li> --}}
                     </ul>
                 </div>
 
                 <div class="space-y-6">
                     <h3 class="text-base font-semibold text-white uppercase tracking-wider">Hours</h3>
                     <ul class="space-y-4 text-gray-300">
-                        <li>Mon-Fri: 9:00 AM - 6:00 PM</li>
-                        <li>Saturday: 10:00 AM - 4:00 PM</li>
-                        <li>Sunday: Closed</li>
+                        <li>Mon-Saturday: 10:00 AM - 5:30 PM</li>
+                        <li>Sunday: 10:30 AM - 4:00 PM</li>
                     </ul>
                 </div>
 
