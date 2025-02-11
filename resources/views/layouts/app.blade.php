@@ -61,95 +61,97 @@
                     </a>
                 </div>
             </div>
-        </nav @yield('hero') </header>
+        </nav>
+        @yield('hero')
+    </header>
 
-        <main>
-            @yield('content')
-        </main>
+    <main>
+        @yield('content')
+    </main>
 
-        <footer class="bg-gray-800 shadow-lg mt-auto">
-            <div class="container mx-auto px-8 py-20">
-                <div class="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-6">
-                    <div class="space-y-0">
-                        <a href="/" class="">
-                            <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo"
-                                width="120" height="120">
-                        </a>
-                        <p class="text-gray-300 text-base">
-                            We fix any computer problem. Bring us your broken laptop, MacBook, or desktop PC today for
-                            fast
-                            computer help. </p>
-                    </div>
-
-                    <div class="space-y-6">
-                        <h3 class="text-base font-semibold text-white uppercase tracking-wider">Quick Links</h3>
-                        <ul class="space-y-4">
-                            <li><a href="/" class="text-gray-300 hover:text-[#f69c32] transition-colors">Home</a>
-                            </li>
-                            <li><a href="/#services"
-                                    class="text-gray-300 hover:text-[#f69c32] transition-colors">Services</a>
-                            </li>
-                            <li><a href="/#ourwork" class="text-gray-300 hover:text-[#f69c32] transition-colors">Our
-                                    Work</a>
-                            </li>
-                            <li><a href="/quote" class="text-gray-300 hover:text-[#f69c32] transition-colors">Get
-                                    Quote</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="space-y-6">
-                        <h3 class="text-base font-semibold text-white uppercase tracking-wider">Contact</h3>
-                        <ul class="space-y-4">
-                            <div class="flex gap-2">
-                                <x-lucide-phone class="h-6 w-6 text-gray-300" />
-                                <p class="text-gray-300">+1(703)-890-6666</p>
-                            </div>
-                            <div class="flex gap-2">
-                                <x-lucide-mail class="h-6 w-6 text-gray-300" />
-                                <p class="text-gray-300">computerfixplus@hotmail.com</p>
-                            </div>
-                            <div class="flex gap-2">
-                                <x-lucide-map-pin class="h-6 w-6 text-gray-300" />
-                                <p class="text-gray-300">4215 Downing St.
-                                    Annandale VA 22003</p>
-                            </div>
-                        </ul>
-                    </div>
-
-                    <div class="space-y-6">
-                        <h3 class="text-base font-semibold text-white uppercase tracking-wider">Hours</h3>
-                        <ul class="space-y-4 text-gray-300">
-                            <li>Mon-Saturday: 10:00 AM - 5:30 PM</li>
-                            <li>Sunday: 10:30 AM - 4:00 PM</li>
-                        </ul>
-                    </div>
-
-                    <div class="space-y-6">
-                        <h3 class="text-base font-semibold text-white uppercase tracking-wider">Follow Us</h3>
-                        <div class="flex space-x-6">
-                            <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
-                                <x-lucide-instagram class="h-6 w-6 text-yellow-400" />
-
-                            </a>
-                            <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
-                                <x-lucide-twitter class="h-6 w-6 text-yellow-400" />
-
-                            </a>
-                            <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
-                                <x-lucide-instagram class="h-6 w-6 text-yellow-400" />
-
-                            </a>
-                        </div>
-                    </div>
+    <footer class="bg-gray-800 shadow-lg mt-auto">
+        <div class="container mx-auto px-8 py-20">
+            <div class="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="space-y-0">
+                    <a href="/" class="">
+                        <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo" width="120"
+                            height="120">
+                    </a>
+                    <p class="text-gray-300 text-base">
+                        We fix any computer problem. Bring us your broken laptop, MacBook, or desktop PC today for
+                        fast
+                        computer help. </p>
                 </div>
 
-                <div class="mt-12 pt-8 border-t border-gray-600">
-                    <p class="text-center text-gray-400 text-sm">
-                        © {{ date('Y') }} ComputerFixPlus. All rights reserved.
-                    </p>
+                <div class="space-y-6">
+                    <h3 class="text-base font-semibold text-white uppercase tracking-wider">Quick Links</h3>
+                    <ul class="space-y-4">
+                        <li><a href="/" class="text-gray-300 hover:text-[#f69c32] transition-colors">Home</a>
+                        </li>
+                        <li><a href="/#services"
+                                class="text-gray-300 hover:text-[#f69c32] transition-colors">Services</a>
+                        </li>
+                        <li><a href="/#ourwork" class="text-gray-300 hover:text-[#f69c32] transition-colors">Our
+                                Work</a>
+                        </li>
+                        <li><a href="/quote" class="text-gray-300 hover:text-[#f69c32] transition-colors">Get
+                                Quote</a></li>
+                    </ul>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-base font-semibold text-white uppercase tracking-wider">Contact</h3>
+                    <ul class="space-y-4">
+                        <div class="flex gap-2">
+                            <x-lucide-phone class="h-6 w-6 text-gray-300" />
+                            <p class="text-gray-300">+1(703)-890-6666</p>
+                        </div>
+                        <div class="flex gap-2">
+                            <x-lucide-mail class="h-6 w-6 text-gray-300" />
+                            <p class="text-gray-300">computerfixplus@hotmail.com</p>
+                        </div>
+                        <div class="flex gap-2">
+                            <x-lucide-map-pin class="h-6 w-6 text-gray-300" />
+                            <p class="text-gray-300">4215 Downing St.
+                                Annandale VA 22003</p>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-base font-semibold text-white uppercase tracking-wider">Hours</h3>
+                    <ul class="space-y-4 text-gray-300">
+                        <li>Mon-Saturday: 10:00 AM - 5:30 PM</li>
+                        <li>Sunday: 10:30 AM - 4:00 PM</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-base font-semibold text-white uppercase tracking-wider">Follow Us</h3>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <x-lucide-instagram class="h-6 w-6 text-yellow-400" />
+
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <x-lucide-twitter class="h-6 w-6 text-yellow-400" />
+
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <x-lucide-instagram class="h-6 w-6 text-yellow-400" />
+
+                        </a>
+                    </div>
                 </div>
             </div>
-        </footer>
+
+            <div class="mt-12 pt-8 border-t border-gray-600">
+                <p class="text-center text-gray-400 text-sm">
+                    © {{ date('Y') }} ComputerFixPlus. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
