@@ -18,7 +18,7 @@
                         technicians are ready to tackle any issue, big or small.
                     </p>
                     <div class="mt-6">
-                        <a href="/book"
+                        <a href="/quote"
                             class="inline-block px-8 py-3 text-lg font-medium text-white bg-[#ffbd2e] rounded-md hover:bg-[#e6a800] transition duration-300">
                             Get Quote
                         </a>
