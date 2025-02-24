@@ -17,8 +17,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="shadow-md relative z-50 bg-[#1676d0] bg-gray-800">
+    <header class="overflow-hidden">
+        <nav class="shadow-md fixed w-full z-50  bg-gray-800">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between h-16">
                     <div class="flex-shrink-0 flex items-center">
@@ -43,12 +43,13 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h16M4 18h16" />
                             </svg>
+
                         </button>
                     </div>
                 </div>
             </div>
             <div id="mobile-menu"
-                class="hidden md:hidden fixed inset-0 bg-white bg-opacity-100 z-40 flex items-center justify-center">
+                class="md:hidden fixed inset-0 bg-white bg-opacity-100 z-40 flex items-center justify-center">
                 <div class="text-center space-y-8">
                     <a href="/" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">Home</a>
                     <a href="/#services" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">Services</a>
@@ -65,7 +66,7 @@
         @yield('hero')
     </header>
 
-    <main>
+    <main class="mt-20 border">
         @yield('content')
     </main>
 
