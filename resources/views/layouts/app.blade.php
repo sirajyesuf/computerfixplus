@@ -130,17 +130,16 @@
                 <div class="space-y-6">
                     <h3 class="text-base font-semibold text-white uppercase tracking-wider">Follow Us</h3>
                     <div class="flex space-x-6">
-                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                        <a href="https://www.instagram.com/computerfixplus/" class="text-gray-400 hover:text-blue-400 transition-colors">
                             <x-lucide-instagram class="h-6 w-6 text-yellow-400" />
 
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                        <a href="https://x.com/computerfixplus" class="text-gray-400 hover:text-blue-400 transition-colors">
                             <x-lucide-twitter class="h-6 w-6 text-yellow-400" />
 
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
-                            <x-lucide-instagram class="h-6 w-6 text-yellow-400" />
-
+                        <a href="https://www.tiktok.com/@computerfixplus" class="bg-red-800 p-4 transition-colors">
+                            <img src="/images/tiktok.png" alt="tiktok" class="h-6 w-6 text-yellow-400">
                         </a>
                     </div>
                 </div>

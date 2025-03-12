@@ -47,8 +47,8 @@
             <div class="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 @foreach ($services as $service)
                     <div class="bg-white overflow-hidden shadow-none rounded-lg">
-                        <div class="relative h-48">
-                            <img src="{{ $service['image'] }}" alt="{{ $service['title'] }}"
+                        <div class="relative h-56">
+                            <img src="/{{ $service['image'] }}" alt="{{ $service['title'] }}"
                                 class="w-full h-full object-cover">
                         </div>
                         <div class="p-6">
@@ -131,7 +131,7 @@
                 @foreach ([['platform' => 'Google', 'icon' => 'google', 'color' => 'text-red-500', 'rating' => '4.9', 'reviews' => '150+'], ['platform' => 'Yelp', 'icon' => 'yelp', 'color' => 'text-red-600', 'rating' => '4.8', 'reviews' => '100+'], ['platform' => 'Facebook', 'icon' => 'facebook', 'color' => 'text-blue-600', 'rating' => '4.9', 'reviews' => '200+']] as $review)
                     <div class="bg-white p-8 rounded-lg shadow-none text-center">
                         {{-- <x-lucide-{{ $review['icon'] }} class="h-12 w-12 {{ $review['color'] }} mx-auto mb-4" /> --}}
-                        <div class="bg-white flex items-center justify-center bg-white">
+                        <div class="bg-white flex items-center justify-center">
                             <img src="{{ asset('images/' . $review['icon']) . '.png' }}" alt="" width="80"
                                 height="80" class="w-[80px] h-[80px] object-cover">
 
