@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
+
     <!-- Styles / Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -138,9 +139,25 @@
                             <x-lucide-twitter class="h-6 w-6 text-yellow-400" />
 
                         </a>
-                        <a href="https://www.tiktok.com/@computerfixplus" class="bg-red-800 p-4 transition-colors">
-                            <img src="/images/tiktok.png" alt="tiktok" class="h-6 w-6 text-yellow-400">
+
+                        <a href="https://www.tiktok.com/@computerfixplus" class="border-none transition-colors w-6 h-6">
+                        <div class="w-full h-full bg-yellow-400"
+                        style="
+                        -webkit-mask-image: url('/images/tiktok.svg');
+                        mask-image: url('/images/tiktok.svg');
+                        -webkit-mask-repeat: no-repeat;
+                        mask-repeat: no-repeat;
+                        -webkit-mask-size: contain;
+                        mask-size: contain;
+                        -webkit-mask-position: center;
+                        mask-position: center;
+                        ">
+                        </div>
                         </a>
+
+
+
+
                     </div>
                 </div>
             </div>
