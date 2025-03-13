@@ -66,7 +66,7 @@
         @yield('hero')
     </header>
 
-    <main class="mt-20 border">
+    <main class="mt-20 border-none">
         @yield('content')
     </main>
 

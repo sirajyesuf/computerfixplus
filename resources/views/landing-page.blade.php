@@ -124,7 +124,7 @@
     </section>
 
 
-    <section class="py-20 bg-gray-50 border-2">
+    <section class="py-20 bg-gray-50 border-none">
         <div class="max-w-7xl mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-12">Customer Ratings</h2>
             <div class="grid md:grid-cols-3 gap-8 bg-gray-50 p-4">
