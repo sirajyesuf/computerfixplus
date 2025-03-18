@@ -18,14 +18,40 @@
 </head>
 
 <body>
-    <header class="overflow-hidden">
-        <nav class="shadow-md fixed w-full z-50  bg-gray-800">
+    <header class="overflow-hidden fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="flex justify-center items-center space-x-4 bg-[#0c63c7] p-2">
+            <a href="https://www.instagram.com/computerfixplus/" class="text-gray-400 hover:text-blue-400 transition-colors">
+                <x-lucide-instagram class="h-6 w-6  text-white" />
+
+            </a>
+            <a href="https://x.com/computerfixplus" class="text-gray-400 hover:text-blue-400 transition-colors">
+                <x-lucide-twitter class="h-6 w-6 text-white" />
+
+            </a>
+
+            <a href="https://www.tiktok.com/@computerfixplus" class="border-none transition-colors w-6 h-6">
+            <div class="w-full h-full bg-white"
+            style="
+            -webkit-mask-image: url('/images/tiktok.svg');
+            mask-image: url('/images/tiktok.svg');
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-size: contain;
+            mask-size: contain;
+            -webkit-mask-position: center;
+            mask-position: center;
+            ">
+            </div>
+            </a>
+        </div>
+        <nav class="shadow-md bg-gray-800 h-16">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between h-16">
+                <div class="flex justify-between items-center">
                     <div class="flex-shrink-0 flex items-center">
-                        <a href="/">
+                        <a href="/" class="flex items-center justify-center">
                             <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo"
-                                width="90" height="90">
+                            width="100" heigth="64"
+                            >
                         </a>
                     </div>
                     <div class="hidden md:flex items-center space-x-4 text-white font-bold">
@@ -64,7 +90,6 @@
                 </div>
             </div>
         </nav>
-        @yield('hero')
     </header>
 
     <main class="mt-20 border-none">
@@ -72,8 +97,8 @@
     </main>
 
     <footer class="bg-gray-800 shadow-lg mt-auto">
-        <div class="container mx-auto px-8 py-20">
-            <div class="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div class="cont</div>ainer mx-auto px-8 py-20">
+            <div class="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-6">
                 <div class="space-y-0">
                     <a href="/" class="">
                         <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo" width="120"
@@ -128,9 +153,11 @@
                     </ul>
                 </div>
 
-                <div class="space-y-6">
+                
+
+                <div class="space-y-6 border-0">
                     <h3 class="text-base font-semibold text-white uppercase tracking-wider">Follow Us</h3>
-                    <div class="flex space-x-6">
+                    <div class="flex space-x-4">
                         <a href="https://www.instagram.com/computerfixplus/" class="text-gray-400 hover:text-blue-400 transition-colors">
                             <x-lucide-instagram class="h-6 w-6 text-yellow-400" />
 
@@ -139,6 +166,12 @@
                             <x-lucide-twitter class="h-6 w-6 text-yellow-400" />
 
                         </a>
+
+                        <a href="https://x.com/computerfixplus" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <x-lucide-facebook class="h-6 w-6 text-yellow-500" />
+
+                        </a>
+
 
                         <a href="https://www.tiktok.com/@computerfixplus" class="border-none transition-colors w-6 h-6">
                         <div class="w-full h-full bg-yellow-400"
@@ -154,17 +187,40 @@
                         ">
                         </div>
                         </a>
-
-
-
-
                     </div>
+                </div>
+
+
+            <div class="border-0  flex flex-col text-gray-400 gap-4 justify-end"> 
+                <h3 class="text-base font-semibold text-white uppercase tracking-wider">Legal</h3>
+
+                <a href="/privacypolicy"
+                class="flex flex-row gap-1"
+                > 
+                    Privacy Policy
+                </a>    
+                <a href="/terms"
+                class="flex flex-row gap-1"
+                > Terms and Conditions
+        
+                </a>    
+                {{-- <a href="smstermsofservice"
+                class="flex flex-row gap-1"
+                > SMS Terms of service 
+        
+                </a>     --}}
+    
                 </div>
             </div>
 
-            <div class="mt-12 pt-8 border-t border-gray-600">
-                <p class="text-center text-gray-400 text-sm">
+
+            <div class="flex   justify-between  mt-12 pt-8 border-t border-gray-600">
+                <p class=" text-gray-400 text-sm">
                     © {{ date('Y') }} ComputerFixPlus. All rights reserved.
+                </p>
+
+                <p class="text-gray-400">
+                    Powered by santa trading plc
                 </p>
             </div>
         </div>

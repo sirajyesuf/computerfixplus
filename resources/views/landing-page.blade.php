@@ -1,8 +1,14 @@
 @extends('layouts.app')
 
 @section('title', 'Home Page')
-@section('hero')
-    <div class="relative bg-white overflow-hidden my-20">
+    
+
+
+@section('content')
+   
+       
+   
+    <div class="bg-white overflow-hidden pt-16 min-h-[90v] ">
         <div class="container mx-auto flex flex-col-reverse lg:flex-row items-center">
             <!-- Left Side - Text Content -->
             <div
@@ -35,9 +41,10 @@
             </div>
         </div>
     </div>
-@endsection
+   
 
-@section('content')
+
+
     <section class="py-12 bg-gray-50" id="services">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
