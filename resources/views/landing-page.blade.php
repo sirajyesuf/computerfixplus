@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('title', 'Home Page')
-    
+
 
 
 @section('content')
-   
-       
-   
-    <div class="bg-white overflow-hidden pt-16 min-h-[90v] ">
+
+
+
+    <div class="bg-white overflow-hidden pt-16 min-h-[90v] my-24">
         <div class="container mx-auto flex flex-col-reverse lg:flex-row items-center">
             <!-- Left Side - Text Content -->
             <div
@@ -41,7 +41,7 @@
             </div>
         </div>
     </div>
-   
+
 
 
 

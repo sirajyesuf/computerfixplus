@@ -49,13 +49,13 @@
             </div>
             </a>
         </div>
-        <nav class="shadow-md bg-gray-800 h-16">
+        <nav class="shadow-md bg-gray-800 h-20">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between items-center">
+                <div class="flex justify-between items-center border-0">
                     <div class="flex-shrink-0 flex items-center">
                         <a href="/" class="flex items-center justify-center">
                             <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo"
-                            width="100" heigth="64"
+                            width="100" heigth=""
                             >
                         </a>
                     </div>
@@ -82,13 +82,13 @@
             </div>
             <div id="mobile-menu"
                 class="md:hidden fixed inset-0 bg-white bg-opacity-100 z-40 flex items-center justify-center hidden">
-                <div class="text-center space-y-8">
+                <div class="text-center space-y-8 space-x-2">
                     <a href="/" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">Home</a>
                     <a href="/#services" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">Services</a>
                     <a href="/#ourwork" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">OurWork</a>
                     <a href="/aboutus" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">AboutUs</a>
                     <a href="/quote"
-                        class="inline-block bg-yellow-500 text-white hover:bg-yellow-400 hover:text-dark-blue px-6 py-3 rounded-md transition duration-300">
+                        class="bg-[#f69c32] text-white hover:bg-yellow hover:text-dark-blue px-4 py-2 rounded-md transition duration-300">
                         Get a Quote
                     </a>
                 </div>
@@ -125,13 +125,7 @@
                         <li><a href="/#ourwork" class="text-gray-300 hover:text-[#f69c32] transition-colors">Our
                                 Work</a>
                         </li>
-                        <li>
-                            <a href="/quote"
-                                class="bg-[#f69c32] text-white hover:bg-yellow hover:text-dark-blue px-4 py-2 rounded-md transition duration-300">
-                                Get a Quote
-                            </a>
 
-                        </li>
                     </ul>
                 </div>
 
