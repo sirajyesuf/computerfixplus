@@ -19,13 +19,18 @@
 
 <body>
     <header class="overflow-hidden fixed top-0 left-0 right-0 z-50 transition-all duration-300">
-        <div class="flex justify-center items-center space-x-4 bg-[#0c63c7] p-2">
+        <div class="flex justify-end items-center space-x-4 bg-[#0c63c7] p-4">
             <a href="https://www.instagram.com/computerfixplus/" class="text-gray-400 hover:text-blue-400 transition-colors">
                 <x-lucide-instagram class="h-6 w-6  text-white" />
 
             </a>
             <a href="https://x.com/computerfixplus" class="text-gray-400 hover:text-blue-400 transition-colors">
                 <x-lucide-twitter class="h-6 w-6 text-white" />
+
+            </a>
+
+            <a href="https://web.facebook.com/profile.php?id=61572747717891" class="text-gray-400 hover:text-blue-400 transition-colors">
+                <x-lucide-facebook class="h-6 w-6 text-white" />
 
             </a>
 
@@ -76,15 +81,14 @@
                 </div>
             </div>
             <div id="mobile-menu"
-                class="md:hidden fixed inset-0 bg-white bg-opacity-100 z-40 flex items-center justify-center">
+                class="md:hidden fixed inset-0 bg-white bg-opacity-100 z-40 flex items-center justify-center hidden">
                 <div class="text-center space-y-8">
                     <a href="/" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">Home</a>
                     <a href="/#services" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">Services</a>
                     <a href="/#ourwork" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">OurWork</a>
                     <a href="/aboutus" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">AboutUs</a>
-                    <a href="/contactus" class="block text-2xl text-dark-blue hover:text-[#f69c32] py-2">ContactUs</a>
                     <a href="/quote"
-                        class="inline-block bg-secondary text-white hover:bg-yellow hover:text-dark-blue px-6 py-3 rounded-md transition duration-300">
+                        class="inline-block bg-yellow-500 text-white hover:bg-yellow-400 hover:text-dark-blue px-6 py-3 rounded-md transition duration-300">
                         Get a Quote
                     </a>
                 </div>
@@ -121,8 +125,13 @@
                         <li><a href="/#ourwork" class="text-gray-300 hover:text-[#f69c32] transition-colors">Our
                                 Work</a>
                         </li>
-                        <li><a href="/quote" class="text-gray-300 hover:text-[#f69c32] transition-colors">Get
-                                Quote</a></li>
+                        <li>
+                            <a href="/quote"
+                                class="bg-[#f69c32] text-white hover:bg-yellow hover:text-dark-blue px-4 py-2 rounded-md transition duration-300">
+                                Get a Quote
+                            </a>
+
+                        </li>
                     </ul>
                 </div>
 
@@ -153,7 +162,7 @@
                     </ul>
                 </div>
 
-                
+
 
                 <div class="space-y-6 border-0">
                     <h3 class="text-base font-semibold text-white uppercase tracking-wider">Follow Us</h3>
@@ -167,7 +176,7 @@
 
                         </a>
 
-                        <a href="https://x.com/computerfixplus" class="text-gray-400 hover:text-blue-400 transition-colors">
+                        <a href="https://web.facebook.com/profile.php?id=61572747717891" class="text-gray-400 hover:text-blue-400 transition-colors">
                             <x-lucide-facebook class="h-6 w-6 text-yellow-500" />
 
                         </a>
@@ -191,25 +200,25 @@
                 </div>
 
 
-            <div class="border-0  flex flex-col text-gray-400 gap-4 justify-end"> 
+            <div class="border-0  flex flex-col text-gray-400 gap-4 justify-end">
                 <h3 class="text-base font-semibold text-white uppercase tracking-wider">Legal</h3>
 
                 <a href="/privacypolicy"
                 class="flex flex-row gap-1"
-                > 
+                >
                     Privacy Policy
-                </a>    
+                </a>
                 <a href="/terms"
                 class="flex flex-row gap-1"
                 > Terms and Conditions
-        
-                </a>    
+
+                </a>
                 {{-- <a href="smstermsofservice"
                 class="flex flex-row gap-1"
-                > SMS Terms of service 
-        
+                > SMS Terms of service
+
                 </a>     --}}
-    
+
                 </div>
             </div>
 
