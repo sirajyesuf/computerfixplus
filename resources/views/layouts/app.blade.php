@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header class="overflow-hidden fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+    <header class="overflow-hidden fixed top-0 left-0 right-0 z-50 transition-all duration-300  bg-gray-50 p-0">
         <div class="flex justify-end items-center space-x-4 bg-[#0c63c7] p-4">
             <a href="https://www.instagram.com/computerfixplus/" class="text-gray-400 hover:text-blue-400 transition-colors">
                 <x-lucide-instagram class="h-6 w-6  text-white" />
@@ -49,17 +49,19 @@
             </div>
             </a>
         </div>
-        <nav class="shadow-md bg-gray-800 h-20">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between items-center border-0">
-                    <div class="flex-shrink-0 flex items-center">
-                        <a href="/" class="flex items-center justify-center">
-                            <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo"
-                            width="100" heigth=""
-                            >
-                        </a>
-                    </div>
-                    <div class="hidden md:flex items-center space-x-4 text-white font-bold">
+        <nav class="max-w-7xl mx-auto shadow-none h-16 flex flex-col border-none border-red-700">
+            <!-- <div class="max-w-7xl mx-auto  bg-red-300 border border-red-400"> -->
+                <div class="flex justify-between  items-center border-none border-yellow-500">
+
+
+                    <a href="/" class="flex-shrink-0 items-center justify-center border-none border-blue-500">
+
+                        <img src="{{ asset('images/cfp2.png') }}" alt="computerfixplus logo"
+                        class="object-center w-auto h-[65px]"
+                        >
+                    </a>
+
+                    <div class="hidden md:flex items-center space-x-4 text-black font-bold">
                         <a href="/" class="text-dark-blue hover:text-[#f69c32]">Home</a>
                         <a href="/#services" class="text-dark-blue hover:text-[#f69c32]">Services</a>
                         <a href="/#ourwork" class="text-dark-blue hover:text-[#f69c32]">OurWork</a>
@@ -79,7 +81,8 @@
                         </button>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
+
             <div id="mobile-menu"
                 class="md:hidden fixed inset-0 bg-white bg-opacity-100 z-40 flex items-center justify-center hidden">
                 <div class="text-center space-y-8 space-x-2">
@@ -103,9 +106,9 @@
     <footer class="bg-gray-800 shadow-lg mt-auto">
         <div class="cont</div>ainer mx-auto px-8 py-20">
             <div class="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-6">
-                <div class="space-y-0">
+                <div class="space-y-2 border-none ">
                     <a href="/" class="">
-                        <img src="{{ asset('images/computerfixplus.png') }}" alt="computerfixplus logo" width="120"
+                        <img src="{{ asset('images/cfp2.png') }}" alt="computerfixplus logo" width="120"
                             height="120">
                     </a>
                     <p class="text-gray-300 text-base">
