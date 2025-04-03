@@ -19,35 +19,51 @@
 
 <body>
     <header class="overflow-hidden fixed top-0 left-0 right-0 z-50 transition-all duration-300  bg-gray-50 p-0">
-        <div class="flex justify-end items-center space-x-4 bg-[#0c63c7] p-4">
-            <a href="https://www.instagram.com/computerfixplus/" class="text-gray-400 hover:text-blue-400 transition-colors">
-                <x-lucide-instagram class="h-6 w-6  text-white" />
-
-            </a>
-            <a href="https://x.com/computerfixplus" class="text-gray-400 hover:text-blue-400 transition-colors">
-                <x-lucide-twitter class="h-6 w-6 text-white" />
-
-            </a>
-
-            <a href="https://web.facebook.com/profile.php?id=61572747717891" class="text-gray-400 hover:text-blue-400 transition-colors">
-                <x-lucide-facebook class="h-6 w-6 text-white" />
-
-            </a>
-
-            <a href="https://www.tiktok.com/@computerfixplus" class="border-none transition-colors w-6 h-6">
-            <div class="w-full h-full bg-white"
-            style="
-            -webkit-mask-image: url('/images/tiktok.svg');
-            mask-image: url('/images/tiktok.svg');
-            -webkit-mask-repeat: no-repeat;
-            mask-repeat: no-repeat;
-            -webkit-mask-size: contain;
-            mask-size: contain;
-            -webkit-mask-position: center;
-            mask-position: center;
-            ">
+        <div class="flex md:justify-end justify-between items-center space-x-4 bg-[#0c63c7] p-2 border-2 pr-4">
+            <div class="flex flex-col md:flex-row   md:space-x-4  border-none space-y-2 md:space-y-0">
+                <a href="tel:+17038906666" class="flex items-center space-x-1 border-none">
+                    <x-lucide-phone class="h-6 w-6 text-white" />
+                    <span class="text-white text-md">123-456-7890</span>
+                </a>
+                <a href="#" class="flex items-center space-x-1 border-none">
+                    <x-lucide-clock class="h-6 w-6 text-white" />
+                    <span class="text-white text-md">Mon-Sat: 10AM-5:30PM & Sunday: 10:30AM-4:00PM </span>
+                </a>
             </div>
-            </a>
+
+            <div class="flex items-center space-x-2">
+                <a href="https://www.instagram.com/computerfixplus/" class="text-gray-400 hover:text-blue-400 transition-colors">
+                    <x-lucide-instagram class="h-6 w-6  text-white" />
+
+                </a>
+                <a href="https://x.com/computerfixplus" class="text-gray-400 hover:text-blue-400 transition-colors">
+                    <x-lucide-twitter class="h-6 w-6 text-white" />
+
+                </a>
+
+                <a href="https://web.facebook.com/profile.php?id=61572747717891" class="text-gray-400 hover:text-blue-400 transition-colors">
+                    <x-lucide-facebook class="h-6 w-6 text-white" />
+
+                </a>
+
+                <a href="https://www.tiktok.com/@computerfixplus" class="border-none transition-colors w-6 h-6">
+                <div class="w-full h-full bg-white"
+                style="
+                -webkit-mask-image: url('/images/tiktok.svg');
+                mask-image: url('/images/tiktok.svg');
+                -webkit-mask-repeat: no-repeat;
+                mask-repeat: no-repeat;
+                -webkit-mask-size: contain;
+                mask-size: contain;
+                -webkit-mask-position: center;
+                mask-position: center;
+                ">
+                </div>
+                </a>
+
+            </div>
+
+
         </div>
         <nav class="max-w-7xl mx-auto shadow-none h-16 flex flex-col border-none border-red-700">
             <!-- <div class="max-w-7xl mx-auto  bg-red-300 border border-red-400"> -->
@@ -71,7 +87,7 @@
                             Get a Quote
                         </a>
                     </div>
-                    <div class="md:hidden flex items-center">
+                    <div class="md:hidden flex items-center border-none pr-4">
                         <button id="menu-toggle" class="text-dark-blue hover:text-primary z-50">
                             <svg id="menu-icon" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#ffbd2e">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
