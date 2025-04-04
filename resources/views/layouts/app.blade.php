@@ -23,11 +23,11 @@
             <div class="flex flex-col md:flex-row   md:space-x-4  border-none space-y-2 md:space-y-0">
                 <a href="tel:+17038906666" class="flex items-center space-x-1 border-none">
                     <x-lucide-phone class="h-6 w-6 text-white" />
-                    <span class="text-white text-md">123-456-7890</span>
+                    <span class="text-white text-md">+1(703)-890-6666</span>
                 </a>
                 <a href="#" class="flex items-center space-x-1 border-none">
                     <x-lucide-clock class="h-6 w-6 text-white" />
-                    <span class="text-white text-md">M-F: 9AM-6PM</span>
+                    <span class="text-white text-md">Mon-Sat: 9AM-6PM</span>
                 </a>
             </div>
 
@@ -170,7 +170,7 @@
                 <div class="space-y-6">
                     <h3 class="text-base font-semibold text-white uppercase tracking-wider">Hours</h3>
                     <ul class="space-y-4 text-gray-300">
-                        <li>Mon-Saturday: 10:00 AM - 5:30 PM</li>
+                        <li>Mon-Saturday: 9:00AM - 6:00PM</li>
                         <li>Sunday: 10:30 AM - 4:00 PM</li>
                     </ul>
                 </div>
