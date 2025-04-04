@@ -27,7 +27,7 @@
                 </a>
                 <a href="#" class="flex items-center space-x-1 border-none">
                     <x-lucide-clock class="h-6 w-6 text-white" />
-                    <span class="text-white text-md">Mon-Sat: 10AM-5:30PM & Sunday: 10:30AM-4:00PM </span>
+                    <span class="text-white text-md">M-F: 9AM-6PM</span>
                 </a>
             </div>
 
