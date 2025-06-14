@@ -20,7 +20,7 @@
                 </Button>
             </div>
         </div>
-    </div> --}}
+    </div> --}} 
 
     @section('hero')
         <div class="bg-white">

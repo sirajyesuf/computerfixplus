@@ -26,11 +26,14 @@ class QuoteController extends Controller
         $email = $request->email;
         $problem = $request->problem;
 
-        $to = env("MAIL_TO_ADDRESS");
+        // Send user form input to the info email address
+        $to = 'info@computerfixplus.com';
 
-        Mail::to($to)->send(new GetQuote($fullname,$email,$problem));
-
-
-        return redirect()->back()->with('success','Email sent successfully');
+        try {
+            Mail::to($to)->send(new GetQuote($fullname, $email, $problem));
+            return redirect()->back()->with('success', 'Thank you for your request! We have received your quote request and will get back to you soon.');
+        } catch (\Exception $e) {
+            return redirect()->back()->withErrors(['error' => 'Sorry, we are unable to process your request at the moment. Please try again later or contact us directly.']);
+        }
     }
 }
